@@ -19,9 +19,12 @@ body {
 	background: url(ucsb.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: white;
-	background-size: cover;
+	background-color: black;
 	background-attachment: fixed;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
 }
 
 h1 {
