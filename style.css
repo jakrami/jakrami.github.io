@@ -82,7 +82,7 @@ div {
 	display: inline-block;
 	
 }
-#header {
+.header {
 	border-radius: 100%;
 	position: relative;
 	left: 2em;
