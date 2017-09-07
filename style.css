@@ -85,11 +85,14 @@ div {
 #header {
 	position: relative;
 	float: center;
+	font-size: 30px
+
 }
 #Justin {
 	top: 33px;
 	left: 5px;
 	font-size: 30px;
+	left: 2.0em;
 	
 }
 
