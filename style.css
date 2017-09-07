@@ -57,7 +57,7 @@ h2 {
 a:hover {
 	color: white;
 	}
-	
+
 #about {
 	text-decoration: none;
 	font-family: Cursive;
@@ -83,8 +83,9 @@ div {
 	
 }
 #header {
+	border-radius: 100%
 	position: relative;
-	left: 20em;
+	left: 2em;
 	float: center;
 }
 #Justin {
