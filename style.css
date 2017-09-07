@@ -1,0 +1,34 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+title {
+	display: inline-block;
+}
+
+.header {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ffe699;
+}
+
+body {
+	background: url(ucsb.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: Arial, Helvetica;
+	font-size: 2em;
+}
+
+h2 {
+	font-family: Arial, Helvetica;
+}
