@@ -57,9 +57,10 @@ h2 {
 a:hover {
 	color: white;
 	}
+
 #about {
 	text-decoration: none;
-	font-family: Cursive;
+	font-family: Arial;
 	position: relative;
 	top: 30px;
 	left: 5px;
@@ -83,7 +84,7 @@ div {
 }
 #header {
 	position: relative;
-	left: 20em;
+	left: 30em;
 	float: center;
 }
 #Justin {
@@ -107,7 +108,7 @@ div {
 #Pictures {
 	font-size: 30px;
 	top: 33px;
-	left: 18em;
+	right: 2em;
 }
 
 
