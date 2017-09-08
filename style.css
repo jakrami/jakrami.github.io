@@ -85,10 +85,12 @@ div {
 .header {
 	border-radius: 100%;
 	position: relative;
+	top: 33px;
 	left: 1.5em;
 	float: center;
 }
 #Justin {
+	position: relative;
 	top: 33px;
 	left: 5px;
 	font-size: 30px;
@@ -101,12 +103,15 @@ div {
 	left: 4.0em;
 }
 
+
 #ContactMe {
+	position: relative;
 	font-size: 30px;
 	top: 33px;
 	left: 11.0em;
 }
 #Pictures {
+	position: relative;
 	font-size: 30px;
 	top: 33px;
 	left: 18em;
