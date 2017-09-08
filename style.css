@@ -6,6 +6,26 @@ title {
 	display: inline-block;
 }
 
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}	
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+
 .header {
 	margin: 0;
 }
