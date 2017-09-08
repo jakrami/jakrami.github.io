@@ -82,11 +82,11 @@ div {
 	display: inline-block;
 	
 }
-.header {
+#title {
 	border-radius: 100%;
 	position: relative;
+	width: 200px;
 	top: 33px;
-	left: 2em;
 	float: center;
 }
 #Justin {
