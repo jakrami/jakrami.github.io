@@ -1,3 +1,4 @@
+/*
 html, body {
 	padding: 0;
 	margin: 0;
@@ -43,13 +44,11 @@ h1 {
 	position: relative;
 	margin: auto;
 	text-align: center;
-	top: 25px;
+		
 }
 
 h2 {
-	position: relative;
 	margin: auto;
-	top: 10px;
 	font-family: cursive;
 
 }
@@ -115,6 +114,121 @@ div {
 	font-size: 30px;
 	top: 33px;
 	left: 18em;
+}
+*/
+html, body {
+  padding: 0;
+  margin: 0;
+}
+title {
+	display: inline-block;
+}
+
+.header {
+  margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #ffe699;
+}
+
+/** {
+	border: 3px solid white;
+}*/
+ img {
+        box-shadow: 10px 10px 5px;
+        border-radius: 15px;
+        width:300px;
+        height: 300px;
+        opacity: .9;
+        left: 50%;
+        top: 50%;
+    }
+body {
+	background-image: url(ucsb.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
+	background-attachment: fixed;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	webkit-background-size:cover;
+}
+h1 {
+	font-family: "Brush Script MT", cursive;
+	color: #ffe699;
+	font-size: 4.0em;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	top: 32px;
+
+
+	line-height: 0.5em;
+}
+h2 {
+	position: relative;
+	margin: auto;
+	top: 10px;
+	font-family: cursive;
+
+}
+
+a:hover {
+	color: white;
+	}
+#about {
+	text-decoration: none;
+	font-family: Cursive;
+	position: relative;
+	top: 30px;
+	left: 5px;
+	font-size: 30px;
+	color:#ffe699;
+
+} 
+div {
+	display: inline-block;
+}
+
+
+#navbar {
+	background-color: gray;
+	height:80px;
+	width: 100%;
+	position: absolute;
+	opacity: .4;
+	display: inline-block;
+	
+}
+#header {
+	position: relative;
+	left: 2.0em;
+	float: center;
+}
+#Justin {
+	top: 33px;
+	left: 5px;
+	font-size: 30px;
+	
+}
+
+#Resume {
+	font-size: 30px;
+	top: 33px;
+	left: 4.0em;
+}
+
+#ContactMe {
+	font-size: 30px;
+	top: 33px;
+	left: 11.0em;
+}
+#Pictures {
+	font-size: 30px;
+	top: 33px;
+	left: 15em;
 }
 
 
