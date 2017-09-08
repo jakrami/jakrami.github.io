@@ -8,6 +8,7 @@ title {
 }
 
 ul {
+	background-color: grey;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
@@ -16,9 +17,15 @@ ul {
 li {
 	display: inline;
 	float: left;
+	border-right: 1px solid black;	
+}
+
+li:last-child {
+	border-right: none;
 }
 
 li a {
+
 	display: block;
 	color: white;
 	text-align: center;
@@ -36,15 +43,6 @@ a {
 	text-decoration: none;
 	color: #ffe699;
 }
-img {
-    box-shadow: 10px 10px 5px;
-    border-radius: 15px;
-    width:300px;
-    height: 300px;
-    opacity: .9;
-    left: 50%;
-    top: 50%;
-    }
 
 body {
 	background: url(ucsb.jpg);
@@ -60,7 +58,8 @@ body {
 }
 
 h1 {
-	font-family: Arial, Helvetica;
+	color: #B8860B;
+	font-family: Nova Flat, Helvetica;
 	font-size: 2em;
 	position: relative;
 	margin: auto;
@@ -68,72 +67,12 @@ h1 {
 		
 }
 
-h2 {
-	margin: auto;
-	font-family: cursive;
 
-}
-
-a:hover {
-	color: white;
+ li a:hover {
+	color: black;
 	}
 
-#about {
-	text-decoration: none;
-	font-family: Cursive;
-	position: relative;
-	top: 30px;
-	left: 5px;
-	font-size: 30px;
-	color:#ffe699;
-
 } 
-div {
-	display: inline-block;
-}
 
 
-#navbar {
-	background-color: gray;
-	height:80px;
-	width: 100%;
-	position: absolute;
-	opacity: .4;
-	display: inline-block;
-	
-}
-#title {
-	border-radius: 100%;
-	position: relative;
-	width: 200px;
-	top: 33px;
-	float: center;
-}
-#Justin {
-	position: relative;
-	top: 33px;
-	left: 5px;
-	font-size: 30px;
-	
-}
-
-#Resume {
-	font-size: 30px;
-	top: 33px;
-	left: 4.0em;
-}
-
-
-#ContactMe {
-	position: relative;
-	font-size: 30px;
-	top: 33px;
-	left: 11.0em;
-}
-#Pictures {
-	position: relative;
-	font-size: 30px;
-	top: 33px;
-	left: 18em;
-}
 
