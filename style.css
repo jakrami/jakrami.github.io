@@ -29,7 +29,7 @@ li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 40px;
 	text-decoration: none;
 }
 
@@ -40,6 +40,7 @@ li a {
 }
 
 a {
+	font-size: 2em
 	text-decoration: none;
 	color: #ffe699;
 }
@@ -69,7 +70,7 @@ h1 {
 
 
  li a:hover {
-	color: black;
+	background-color: black;
 	}
 
 } 
